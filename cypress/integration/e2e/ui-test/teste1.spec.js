@@ -1,5 +1,5 @@
-import DataLogin from '../fixtures/example';
-import loc from '../support/locators'
+import DataLogin from '../../../fixtures/example';
+import loc from '../../../support/locators'
 
 describe('Tweets', () => {
     beforeEach(() => cy.visit('../../src/index.html'))
